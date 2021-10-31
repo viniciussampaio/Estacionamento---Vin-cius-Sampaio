@@ -1,0 +1,13 @@
+- 1 médico pode ter 1 ou mais veiculos
+- 1 veiculo só pode ter 1 ou mais donos
+- 1 médico pode pagar 1 ou mais veiculos
+- 1 ou mais pagamentos só pode ser feito por 1 médico
+- 1 médico só pode fazer parte de 1 ger e 1 superint
+- 1 ger e 1 superint pode ter 1 ou mais médicos alocados
+
+chave primária e secundaria
+
+- medico (id_medico(id_medcarro, id_medfinanceiro, id_medsetor))
+- carro/moto (id_veiculo(id_medcarro))
+- setor responsavel (id_setor_responsavel(id_medsetor))
+- financeiro (id_financeiro(id_medfinanceiro))
